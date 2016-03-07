@@ -54,11 +54,13 @@
             <name>Nexus Releases</name>
             <url>http://localhost:8081/nexus/service/local/staging/deploy/maven2</url>
         </repository>
-        <sites>
+        <!--
+          <sites>
             <id>nexus</id>
             <name>Nexus Sites</name>
             <url>dav:http://localhost:8081/nexus/content/sites/site</url>
-        </sites>
+        </sites> 
+        -->
     </distributionManagement>
 
     <dependencyManagement>
