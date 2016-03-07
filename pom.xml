@@ -92,13 +92,13 @@
             <name>Nexus Releases</name>
             <url>http://localhost:8081/nexus/content/repositories/releases</url>
         </repository>
-        <!--
+        
           <sites>
             <id>nexus</id>
             <name>Nexus Sites</name>
             <url>dav:http://localhost:8081/nexus/content/sites/site</url>
         </sites> 
-        --
+       
     </distributionManagement -->
 
     <dependencyManagement>
